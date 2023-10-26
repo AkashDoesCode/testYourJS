@@ -1,0 +1,88 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testyourjs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--start button-->
+    <div class="start_btn">
+        <button>
+            Start
+        </button>
+    </div>
+    <!--rules of the quiz-->
+    <div class="starting_info">
+        <div class="info_title">
+            <span id="a">Rules of the quiz</span>
+        </div>
+        <div class="rule_list">
+            <div class="rules">1.you only get <span>15 seconds</span> to answer a question.</div>
+            <div class="rules">2.you can select your answer only once.</div> 
+            <div class="rules">3.You can't select your answer after <span>15 seconds.</span></div>
+            <div class="rules">4.you will get points if you gave correct answer.</div>
+        </div>
+        <div class="exit_restart_button">
+            <button class="exit">Exit</button>
+            <button class="restart">Play</button>
+        </div>
+    </div>
+    <!--question box-->
+    <div class="questions_box">
+        <header>
+            <div class="intro">Test Your Javascript</div>
+            <div class="timer">
+                <div class="time_left">Time Left</div>
+                <div class="time_sec">15</div>
+            </div>
+            <div class="timer_line"></div>
+        </header>
+        <section>
+            <div class="questions">
+                <span>HTML full form</span>
+            </div>
+            <div class="option_list">
+                <div class="option">
+                    <span>hyper text lang</span>
+                    <div class="icon"><span class="tick">&#10004</span></div>
+                </div>
+                <div class="option">
+                    <span>hyper text lang</span>
+                    <div class="cross_icon"><span class="cross">&#10006</span></div>
+                </div>
+                <div class="option">
+                    <span>hyper text lang</span>
+                </div>
+                <div class="option">
+                    <span>hyper text lang</span>
+                </div>
+            </div>
+        </section>
+        <footer>
+                <div class="total_question">
+                    <pre><span><p><b>1 </b></p><p>of</p><p><b> 5 </b></p><p>questions</p></span></pre>
+                </div>
+            <button class="next">Next</button>
+        </footer>
+    </div>
+    <!--result box-->
+    <div class="result">
+        <div class="crown">&#128081</div>
+        <div class="completed">
+            Hurray! you have completed the quizs
+        </div>
+        <div class="question_got">
+            <span>you got<p>2</p>out of <p>5</p></span>
+        </div>
+        <div class="last_buttons">
+            <button class="restart">Retry</button>
+            <button class="exit">Quit</button>
+        </div>
+    </div>
+    <script src="JS/script.js"></script>
+    <script src="JS/questions.js"></script>
+</body>
+</html>
